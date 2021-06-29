@@ -8,21 +8,20 @@
 	// The .devcontainer/docker-compose.yml file contains any overrides you need/want to make.
 	"dockerComposeFile": [
 		"../docker-compose.yml"
-		// "docker-compose.yml"
 	],
 
-	// The 'service' property is the name of the service for the container that VS Code should
-	// use. Update this value and .devcontainer/docker-compose.yml to the real service name.
+	// The 'service' property is the name of the service for the container that VS Code should use.
 	"service": "laravel.test",
 
 	// The optional 'workspaceFolder' property is the path VS Code should open by default when
-	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
+	// connected. This is typically a file mount in ../docker-compose.yml
 	"workspaceFolder": "/var/www/html",
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
 	// Add the IDs of extensions you want installed when the container is created.
+    // here we could add PHP related extensions that are relevant to laravel.
 	"extensions": [],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
